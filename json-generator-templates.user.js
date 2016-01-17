@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        JSON generator templates
 // @namespace   https://github.com/healarconr
-// @description Save json generator templates in the browser local storage for later use
+// @description Save JSON Generator templates in the browser local storage for later use
 // @include     http://www.json-generator.com/
 // @version     1
 // @grant       none
