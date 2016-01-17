@@ -5,6 +5,7 @@
 // @include     http://www.json-generator.com/
 // @version     1
 // @grant       none
+// @license     MIT License
 // ==/UserScript==
 function jsonGeneratorTemplates() {
 
