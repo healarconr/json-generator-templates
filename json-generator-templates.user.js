@@ -153,7 +153,7 @@ function jsonGeneratorTemplates() {
       var index = templateSelect.selectedIndex - 1;
       var template = templates[index];
       template.content = getEditor().getValue();
-      loadTemplateOptions();
+      templateSelect.options[templateSelect.selectedIndex].value = template.content;
       setTemplates(templates);
     } else {
       var templateName = prompt("Template name", new Date().toLocaleString());
